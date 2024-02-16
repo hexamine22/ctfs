@@ -1,2 +1,2 @@
 # CTF
-Solution for CTF challenges.
+Solutions for CTF challenges.
