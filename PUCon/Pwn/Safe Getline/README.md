@@ -72,7 +72,7 @@ This function has two loops: an infinite for loop, which only breaks when it enc
 
 # The vulnerability
 
-The while loop has an integer underflow. Since the program subtracts 1 from **i** in each iteration of the for loop before checking if it is greater than 0, providing input larger than 1024 bytes can turn the **i** into a negative number.
+The while loop has an integer underflow. Since the program subtracts 1 from **i** in each iteration of the for loop before checking if it is greater than 0, providing input larger than 1024 bytes can turn **i** into a negative number.
 
 
 Disassembly of getline
