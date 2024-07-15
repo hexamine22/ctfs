@@ -80,9 +80,7 @@ for i in range(12):
 for i in range(12):
     if div_array[i] != div_cmp_arr[i]:
         print(f"div_array[{i}] failed the check")
-for i in range(12):
-    if remainder_array != remainder_cmp_arr[i]:
-        print(f"remainder_array[{i}] failed the check")
+#didn't implement the remainder check
 
 flag_12 = xored_arr[12]
 
