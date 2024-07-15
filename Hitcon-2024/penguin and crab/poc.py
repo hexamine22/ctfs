@@ -98,21 +98,3 @@ if result == 0x6B3312EC731522288:
     print("Correct flag!")
 else:
     print("Incorrect flag!")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
