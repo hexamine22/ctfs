@@ -64,7 +64,7 @@ offsets = [0]*1
 sampleCounts = [0]*1
 add_seektable(numbers,offsets,sampleCounts)
 
-#The basic_string's `begin_` pointer is not mangled so just point it to some arb data, and perform an arb write
+#The basic_string's `begin_` pointer is not mangled so just point it to some arb address, and perform an arb write
 
 addBlockVorbisComment(b"A"*304)
 
